@@ -1,0 +1,85 @@
+.contact {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.contact .lead {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    color: #666;
+    text-align: center;
+}
+
+.contact h4 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact .list-unstyled {
+    padding: 0;
+}
+
+.contact .list-unstyled li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.contact .list-unstyled li i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.contact .list-unstyled li a {
+    color: #007bff !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-left: 20px;
+}
+
+.contact .list-unstyled li a:hover {
+    color: #0056b3;
+}
+
+.contact .form-label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact .form-control, .contact .form-select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.contact .form-control:focus, .contact .form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.contact .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn:hover {
+    background-color: #0056b3;
+}

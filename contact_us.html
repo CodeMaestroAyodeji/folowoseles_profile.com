@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith Builders | Contact Us</title>
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./icons/favicon/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" href="./icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="./icons/favicon/favicon.ico">
+
+    <!---===Styling links-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./icons/css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        /* Custom CSS to reduce form height */
+        .contact form input[type="text"],
+        .contact form input[type="email"],
+        .contact form input[type="tel"],
+        .contact form select,
+        .contact form textarea {
+        height: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first_body">
+        <div class="second_body">
+            <header class="header">
+                <div class="brand_name">
+                    <a href="index.html">
+                        <h2>Faith Builders</h2>
+                    </a>
+                </div>
+    
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about_us.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="messages.html">Messages</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="gallery.html">Gallery</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="contact_us.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            
+            <div class="contact">
+                <div class="container mt-4">
+                    <h2>Contact Us</h2>
+                    <p class="lead">Feel free to reach out to us using the form below or through our social media handles.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Social media handles -->
+                            <h4>Social Media</h4>
+                            <ul class="list-unstyled">
+                                <li><i class="fab fa-facebook"></i> Facebook: <a href="#">@faithbuilders</a></li>
+                                <li><i class="fab fa-telegram"></i> Telegram: <a href="#">@faithbuilders</a></li>
+                                <li><i class="fab fa-whatsapp"></i> WhatsApp: <a href="#">+123456789</a></li>
+                                <li><i class="fab fa-instagram"></i> Instagram: <a href="#">+123456789</a></li>
+                                <li><i class="fas fa-envelope"></i> Email: <a href="#">+123456789</a></li>
+                                <!-- Add more social media handles as needed -->
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Contact form -->
+                            <h4>Contact Form</h4>
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="firstName" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="firstName" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="lastName" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="phone" class="form-label">Phone</label>
+                                        <input type="tel" class="form-control" id="phone" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <label for="locationCountry" class="form-label">Country</label>
+                                        <input type="text" class="form-control" id="locationCountry" required>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <label for="locationState" class="form-label">State</label>
+                                        <input type="text" class="form-control" id="locationState" required>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <label for="locationCity" class="form-label">City</label>
+                                        <input type="text" class="form-control" id="locationCity" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="messageTitle" class="form-label">Message Title</label>
+                                    <select class="form-select" id="messageTitle" required>
+                                        <option value="">Select...</option>
+                                        <option value="General Inquiry">General Inquiry</option>
+                                        <option value="Support Request">Support Request</option>
+                                        <option value="Feedback">Feedback</option>
+                                        <!-- Add more options as needed -->
+                                    </select>
+                                </div>
+            
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="brand_name">
+                                <a href="index.html">
+                                    <h2>Faith Builders</h2>
+                                </a>
+                            </div>
+                            <p>At Faith Builders, we are dedicated to teaching His Word and building spiritual lives through the ministry of reconciliation and nurturing by God's word.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="footer_links">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about_us.html">About Us</a></li>
+                                <li><a href="messages.html">Messages</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact_us.html">Contact Us</a></li>
+                                <li><a href="testimony.html">Testimony</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="footer_social">
+                                <li><a href="#"><i class="fab fa-facebook fa-2x" style="color: #3b5998;"></i></a></li>
+                                <li><a href="#"><i class="fab fa-telegram fa-2x" style="color: #1da1f2;"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram fa-2x" style="color: #e4405f;"></i></a></li>
+                                <li><a href="#"><i class="fas fa-phone fa-2x" style="color: #0088cc;"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp fa-2x" style="color: #25d366;"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope fa-2x" style="color: #e4405f;"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container text-center">
+                    <p>&copy; 2024 Faith Builders. All rights reserved.</p>
+                    <p>
+                        <a href="#">
+                            Designed by Ayodeji
+                        </a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/contact.js"></script>
+</body>
+
+</html>
